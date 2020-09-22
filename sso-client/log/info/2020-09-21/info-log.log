@@ -1,0 +1,73 @@
+2020-09-21 15:38:32.551 INFO  org.yh.ssoclient.SsoClientApplication - Starting SsoClientApplication on LAPTOP-0LUR7ABV with PID 19744 (D:\idea_workspace\sso\sso-client\target\classes started by teagm in D:\idea_workspace\sso\sso-client)
+2020-09-21 15:38:32.557 INFO  org.yh.ssoclient.SsoClientApplication - No active profile set, falling back to default profiles: default
+2020-09-21 15:38:33.650 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-21 15:38:33.665 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-21 15:38:33.666 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 15:38:33.668 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-21 15:38:33.741 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 15:38:33.741 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1109 ms
+2020-09-21 15:38:33.824 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-21 15:38:33.855 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-21 15:38:56.872 INFO  org.yh.ssoclient.SsoClientApplication - Starting SsoClientApplication on LAPTOP-0LUR7ABV with PID 11568 (D:\idea_workspace\sso\sso-client\target\classes started by teagm in D:\idea_workspace\sso\sso-client)
+2020-09-21 15:38:56.879 INFO  org.yh.ssoclient.SsoClientApplication - No active profile set, falling back to default profiles: default
+2020-09-21 15:38:58.164 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-21 15:38:58.180 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-21 15:38:58.181 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 15:38:58.181 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-21 15:38:58.259 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 15:38:58.259 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1338 ms
+2020-09-21 15:38:58.541 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:38:58.679 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-21 15:38:58.694 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-21 15:38:58.716 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-21 15:38:58.727 INFO  org.yh.ssoclient.SsoClientApplication - Started SsoClientApplication in 2.314 seconds (JVM running for 5.365)
+2020-09-21 15:40:14.541 INFO  org.yh.ssoclient.SsoClientApplication - Starting SsoClientApplication on LAPTOP-0LUR7ABV with PID 5012 (D:\idea_workspace\sso\sso-client\target\classes started by teagm in D:\idea_workspace\sso\sso-client)
+2020-09-21 15:40:14.543 INFO  org.yh.ssoclient.SsoClientApplication - No active profile set, falling back to default profiles: default
+2020-09-21 15:40:15.916 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-21 15:40:15.937 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-21 15:40:15.939 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 15:40:15.939 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-21 15:40:16.020 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 15:40:16.020 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1398 ms
+2020-09-21 15:40:16.340 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:40:16.479 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-21 15:40:16.494 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-21 15:40:16.515 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-21 15:40:16.525 INFO  org.yh.ssoclient.SsoClientApplication - Started SsoClientApplication in 2.333 seconds (JVM running for 5.325)
+2020-09-21 15:40:25.676 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 15:40:25.676 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-21 15:40:25.683 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-09-21 15:40:25.692 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:28.194 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:28.949 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:30.046 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:30.958 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:31.781 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:32.525 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:33.045 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:33.599 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:40:34.193 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:41:19.456 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /login
+2020-09-21 15:42:15.491 INFO  org.yh.ssoclient.SsoClientApplication - Starting SsoClientApplication on LAPTOP-0LUR7ABV with PID 15052 (D:\idea_workspace\sso\sso-client\target\classes started by teagm in D:\idea_workspace\sso\sso-client)
+2020-09-21 15:42:15.501 INFO  org.yh.ssoclient.SsoClientApplication - No active profile set, falling back to default profiles: default
+2020-09-21 15:42:16.951 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-09-21 15:42:16.970 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-21 15:42:16.971 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-21 15:42:16.971 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-21 15:42:17.059 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-21 15:42:17.059 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1457 ms
+2020-09-21 15:42:17.411 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-21 15:42:17.575 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-21 15:42:17.593 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-09-21 15:42:17.627 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-21 15:42:17.659 INFO  org.yh.ssoclient.SsoClientApplication - Started SsoClientApplication in 2.502 seconds (JVM running for 5.481)
+2020-09-21 15:42:24.683 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-21 15:42:24.683 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-21 15:42:24.691 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-09-21 15:42:24.697 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /login
+2020-09-21 15:42:24.716 INFO  org.yh.ssoclient.annotation.UserArgumentResolver - resolver# method 'login' parameter 0
+2020-09-21 15:42:24.737 INFO  org.yh.ssoclient.annotation.AccessInterceptor - interceptor#contextPath: 
+2020-09-21 15:46:39.714 INFO  org.yh.ssoclient.config.MyFilter - filter#请求url: /limit
+2020-09-21 15:46:42.765 INFO  org.yh.ssoclient.annotation.AccessInterceptor - interceptor#contextPath: 

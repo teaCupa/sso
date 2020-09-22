@@ -1,0 +1,82 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <script type="text/javascript" th:src="@{/js/jquery.min.js}"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <td>请输入用户</td>
+        <td><input id="name" name="name" value="zhangsan" type="text" required="true" minlength="3" maxlength="8"/></td>
+    </tr>
+    <tr>
+        <td>请输入密码</td>
+        <td><input id="password" name="password" value="123" type="password" required="true" minlength="3"
+                   maxlength="8"/></td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="reset()">重置</button>
+        </td>
+        <td>
+            <button onclick="login()">登录</button>
+        </td>
+    </tr>
+</table>
+<button onclick="testLocalStorage()">测试localStorage</button>
+</body>
+<script type="text/javascript">
+    function login() {
+        var name = $("#name").val()
+        var password = $("#password").val()
+        var params = "name=" + name + "&password=" + password
+        $.ajax({
+            url: '/doLogin',
+            type: 'POST',
+            data: params,
+            success: function (data) {
+                if (data.code == 200) {
+                    var localStorage = window.localStorage; //浏览器的本地存储
+                    var token = data.object;
+                    localStorage.token = token;
+                } else {
+                    alert(data.msg)
+                }
+            },
+            error: function () {
+                console.log('ajax发送失败')
+            }
+        })
+    }
+
+    function setHeader(xhr) {
+            //在请求头中加入Authorization字段
+            var token = window.localStorage.token
+            xhr.setRequestHeader("Authorization", token)
+    }
+
+    /**
+     * 利用xhr把token放置在请求头里,供后端获取
+     */
+    function testLocalStorage() {
+        // var param="jwtToken="+window.localStorage.token
+        $.ajax({
+            url: '/valid',
+            type: 'GET',
+            // data:param,
+            success: function (data) {
+                if (data.code == 200) {
+                    alert(data.msg)
+                } else {
+                    alert(data.msg)
+                }
+            },
+            error: function () {
+                console.log('ajax发送失败')
+            },
+            'beforeSend': setHeader
+        })
+    }
+</script>
+</html>
